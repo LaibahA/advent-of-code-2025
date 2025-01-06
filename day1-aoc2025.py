@@ -3,7 +3,7 @@ import csv
 list1 = []
 list2 = []
 #Reads all the numbers into two lists
-with open('aoc2025-d1.csv', 'r') as file:
+with open('aoc2025-d1.txt', 'r') as file:
     for line in file:
         nums = line.split()
 
